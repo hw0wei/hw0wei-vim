@@ -28,4 +28,4 @@ IF NOt exist "%HOME%/.vim/bundle/vim-colors-solarized" (
         call git clone git://github.com/altercation/vim-colors-solarized.git "%HOME%"/.vim/bundle/vim-colors-solarized
         )
 
-call gvim -u "%BASE_DIR%\vimrc" +BundleInstall! +BundleClean +qall
+call vim -u "%BASE_DIR%\vimrc" +BundleInstall! +BundleClean +qall
