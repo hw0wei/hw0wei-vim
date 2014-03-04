@@ -402,7 +402,7 @@
                 set guifont=DejaVu_Sans_Mono_for_powerline:h11,Ubuntu_Mono_derivative_Powerline:h11,Courier_New:h11
                 set guifontwide=YouYuan:h11,Microsoft_Yahei:h11
             endif
-        elseif
+        else
             if &term == 'xterm' || &term == 'screen'
                 set t_Co=256            " Enable 256 colors to stop the CSApprox warning and make xterm vim shine
             endif
